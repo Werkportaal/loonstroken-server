@@ -1,0 +1,10 @@
+src/main/java/driessen/serviceTemplate/controller
+src/main/java/driessen/serviceTemplate/model
+src/main/java/driessen/serviceTemplate/repository
+src/test/java/driessen/serviceTemplate
+.github/workflows
+.env
+.env.prod
+.run/
+.templatesyncignore
+docker-compose*.yml
