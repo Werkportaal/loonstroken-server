@@ -1,7 +1,6 @@
-src/main/java/driessen/serviceTemplate/controller
-src/main/java/driessen/serviceTemplate/model
-src/main/java/driessen/serviceTemplate/repository
-src/test/java/driessen/serviceTemplate
+src/main/java/werkportaal/loonstrokenServer/model
+src/main/java/werkportaal/loonstrokenServer/repository
+src/test/java/werkportaal/loonstrokenServer
 .github/workflows
 .env
 .env.prod

@@ -1,14 +1,12 @@
-package driessen.serviceTemplate.runner;
+package werkportaal.loonstrokenServer.runner;
 
-import driessen.serviceTemplate.model.Template;
-import driessen.serviceTemplate.repository.TemplateRepository;
+import werkportaal.loonstrokenServer.model.Template;
+import werkportaal.loonstrokenServer.repository.TemplateRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.stereotype.Component;
 
 @Component

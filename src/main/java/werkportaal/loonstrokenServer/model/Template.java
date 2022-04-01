@@ -1,4 +1,4 @@
-package driessen.serviceTemplate.model;
+package werkportaal.loonstrokenServer.model;
 
 import org.hibernate.annotations.GenericGenerator;
 

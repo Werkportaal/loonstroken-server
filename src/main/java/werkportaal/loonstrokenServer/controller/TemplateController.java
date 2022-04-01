@@ -1,7 +1,7 @@
-package driessen.serviceTemplate.controller;
+package werkportaal.loonstrokenServer.controller;
 
-import driessen.serviceTemplate.model.Template;
-import driessen.serviceTemplate.repository.TemplateRepository;
+import werkportaal.loonstrokenServer.model.Template;
+import werkportaal.loonstrokenServer.repository.TemplateRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,6 +1,6 @@
-package driessen.serviceTemplate;
+package werkportaal.loonstrokenServer;
 
-import driessen.serviceTemplate.repository.TemplateRepository;
+import werkportaal.loonstrokenServer.repository.TemplateRepository;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackageClasses = TemplateRepository.class)
-public class ServiceTemplateApplication {
+public class LoonstrokenServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceTemplateApplication.class, args);
+		SpringApplication.run(LoonstrokenServerApplication.class, args);
 	}
 
 	// This is so that SimpleMessageConverter only String, byte[] and Serializable payloads supports.
