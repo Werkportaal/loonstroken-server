@@ -1,4 +1,4 @@
-# [Microservice name]
+# loonstroken server
 
 ## Running it (development)
 
