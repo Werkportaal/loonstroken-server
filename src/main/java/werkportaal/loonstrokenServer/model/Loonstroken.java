@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import java.util.UUID;
 
 @Entity
-public class Template {
+public class Loonstroken {
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
@@ -17,17 +17,5 @@ public class Template {
     )
     private UUID id;
 
-    private String value;
-
-    public UUID getId(){
-        return id;
-    }
-
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
+    private String Name;
 }
