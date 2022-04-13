@@ -1,9 +1,0 @@
-src/main/java/werkportaal/loonstrokenServer/model
-src/main/java/werkportaal/loonstrokenServer/repository
-src/test/java/werkportaal/loonstrokenServer
-.github/workflows
-.env
-.env.prod
-.run/
-.templatesyncignore
-docker-compose*.yml
